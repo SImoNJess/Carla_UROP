@@ -62,7 +62,7 @@ This part is based on [Carla_iLQR_MPC](https://github.com/YukunXia/Carla_iLQR_MP
 `main_mpc_run.py` `car_env.py` (computes the ilqr and animation at the same moment) 
 `mpc_plan.py` `mpc_replay.py`(wraps the ilqr first, then replay for animation to rescue GPU).  
 
-[![MPC Demo Video](Video/images/3.png)](Video/MPC.mp4)
+[![MPC Demo Video](Video/images/3.png)](https://drive.google.com/file/d/1Zwkf76nHDqjLxFOlq71Tw-r0yn40EJdY/view?usp=drive_link)
 
 ---
 
