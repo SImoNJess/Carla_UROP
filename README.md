@@ -27,7 +27,7 @@ It includes simple safety/decision modules, MATLAB animations, MPC training and 
 - Demonstrates a simple **autonomous overtaking maneuver** in CARLA.  
 - Simple FSM to do an overtake following the lane.  
 
-** [Demo Video](videos/MPC.mp4) **
+[![Auto Overtake Demo Video](Video/images/1.png)](https://drive.google.com/file/d/13aZ0a-tgNKtTqrkCOm9GskNRRUBcd4zv/view?usp=drive_link) 
 
 ---
 
@@ -39,7 +39,7 @@ It includes simple safety/decision modules, MATLAB animations, MPC training and 
  `Overtake_data.py`  
 - The current data file presents an overtake.
 
-** [Demo Video](videos/MPC.mp4) **
+[![Data Animation Video](Video/images/2.png)](https://drive.google.com/file/d/1RXUs9viSw_aNx5kH5hsobkE0RNDmBF1a/view?usp=drive_link) 
 
 ---
 
@@ -62,7 +62,7 @@ This part is based on [Carla_iLQR_MPC](https://github.com/YukunXia/Carla_iLQR_MP
 `main_mpc_run.py` `car_env.py` (computes the ilqr and animation at the same moment) 
 `mpc_plan.py` `mpc_replay.py`(wraps the ilqr first, then replay for animation to rescue GPU).  
 
-** [Demo Video](videos/MPC.mp4) **
+[![MPC Demo Video](Video/images/3.png)](videos/MPC.mp4)
 
 ---
 
