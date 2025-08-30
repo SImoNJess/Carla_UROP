@@ -1,8 +1,6 @@
-# Carla UROP
-This project is part of the Summer UROP at Imperial, focusing on CARLA investigation.
-
 # CARLA Autonomous Driving Experiments
 
+This project is part of the Summer UROP at Imperial, focusing on CARLA investigation.
 This repository collects a series of experiments and implementations using the [CARLA Simulator](https://carla.org/).  
 It includes simple safety/decision modules, MATLAB animations, MPC training and testing pipelines, and experiment logs.  
 
@@ -21,11 +19,11 @@ It includes simple safety/decision modules, MATLAB animations, MPC training and 
 
 ## 1. Simple CARLA Files
 
-### `AEB.py`  
+ `AEB.py`  
 - Implements a basic **Automatic Emergency Braking (AEB)** system.  
 - Monitors the ego vehicle and triggers braking when a collision risk is detected. [need to spawn a car along the cruisor reference path]
 
-### `Overtake_Dynamic.py`  
+ `Overtake_Dynamic.py`  
 - Demonstrates a simple **autonomous overtaking maneuver** in CARLA.  
 - Simple FSM to do an overtake following the lane.  
 
@@ -38,7 +36,7 @@ It includes simple safety/decision modules, MATLAB animations, MPC training and 
 - These scripts load `.mat` data and visualize animations of vehicle trajectories (e.g., lane change, overtaking scenarios).  
 - Mainly used for playback and visualization of planned maneuvers outside the simulator. 
 
-### `Overtake_data.py`  
+ `Overtake_data.py`  
 - The current data file presents an overtake.
 
 ** [Demo Video](videos/MPC.mp4) **
